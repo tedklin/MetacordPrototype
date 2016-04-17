@@ -8,13 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		802B4FF71CBB1FFC0007463C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802B4FF61CBB1FFC0007463C /* AppDelegate.swift */; };
-		802B4FF91CBB1FFC0007463C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802B4FF81CBB1FFC0007463C /* FirstViewController.swift */; };
-		802B4FFB1CBB1FFC0007463C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802B4FFA1CBB1FFC0007463C /* SecondViewController.swift */; };
+		802B4FF91CBB1FFC0007463C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802B4FF81CBB1FFC0007463C /* HomeViewController.swift */; };
+		802B4FFB1CBB1FFC0007463C /* InstructionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802B4FFA1CBB1FFC0007463C /* InstructionViewController.swift */; };
 		802B4FFE1CBB1FFC0007463C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 802B4FFC1CBB1FFC0007463C /* Main.storyboard */; };
 		802B50001CBB1FFC0007463C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 802B4FFF1CBB1FFC0007463C /* Assets.xcassets */; };
 		802B50031CBB1FFC0007463C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 802B50011CBB1FFC0007463C /* LaunchScreen.storyboard */; };
 		802B500E1CBB1FFD0007463C /* MetacordPrototype_1_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802B500D1CBB1FFD0007463C /* MetacordPrototype_1_0Tests.swift */; };
 		802B50191CBB1FFD0007463C /* MetacordPrototype_1_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802B50181CBB1FFD0007463C /* MetacordPrototype_1_0UITests.swift */; };
+		802B50DD1CBB51180007463C /* AnalyzerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802B50DC1CBB51180007463C /* AnalyzerViewController.swift */; };
+		802B50DF1CBB54AB0007463C /* LibraryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802B50DE1CBB54AB0007463C /* LibraryTableViewController.swift */; };
+		802B50E11CBB55060007463C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802B50E01CBB55060007463C /* DetailViewController.swift */; };
+		80E4B1E41CBC3FDE00B8C58C /* InstructionViewController0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E4B1E21CBC3FDE00B8C58C /* InstructionViewController0.swift */; };
+		80E4B1E51CBC3FDE00B8C58C /* InstructionViewController0.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80E4B1E31CBC3FDE00B8C58C /* InstructionViewController0.xib */; };
+		80E4B1E81CBC401E00B8C58C /* InstructionViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E4B1E61CBC401E00B8C58C /* InstructionViewController1.swift */; };
+		80E4B1E91CBC401E00B8C58C /* InstructionViewController1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80E4B1E71CBC401E00B8C58C /* InstructionViewController1.xib */; };
+		80E4B1EC1CBC408600B8C58C /* InstructionViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E4B1EA1CBC408600B8C58C /* InstructionViewController2.swift */; };
+		80E4B1ED1CBC408600B8C58C /* InstructionViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80E4B1EB1CBC408600B8C58C /* InstructionViewController2.xib */; };
+		80E4B1F01CBC409400B8C58C /* InstructionViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E4B1EE1CBC409400B8C58C /* InstructionViewController3.swift */; };
+		80E4B1F11CBC409400B8C58C /* InstructionViewController3.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80E4B1EF1CBC409400B8C58C /* InstructionViewController3.xib */; };
+		80EFE4EF1CBF5EBC00C619D0 /* AnalysisInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EFE4EE1CBF5EBC00C619D0 /* AnalysisInputViewController.swift */; };
+		80EFE5371CC3031C00C619D0 /* AnalysisResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EFE5361CC3031C00C619D0 /* AnalysisResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +48,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		802B4FF31CBB1FFC0007463C /* MetacordPrototype_1.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetacordPrototype_1.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		802B4FF31CBB1FFC0007463C /* Metacord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Metacord.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		802B4FF61CBB1FFC0007463C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		802B4FF81CBB1FFC0007463C /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		802B4FFA1CBB1FFC0007463C /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		802B4FF81CBB1FFC0007463C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		802B4FFA1CBB1FFC0007463C /* InstructionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionViewController.swift; sourceTree = "<group>"; };
 		802B4FFD1CBB1FFC0007463C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		802B4FFF1CBB1FFC0007463C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		802B50021CBB1FFC0007463C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +62,19 @@
 		802B50141CBB1FFD0007463C /* MetacordPrototype_1.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetacordPrototype_1.0UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		802B50181CBB1FFD0007463C /* MetacordPrototype_1_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetacordPrototype_1_0UITests.swift; sourceTree = "<group>"; };
 		802B501A1CBB1FFD0007463C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		802B50DC1CBB51180007463C /* AnalyzerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalyzerViewController.swift; sourceTree = "<group>"; };
+		802B50DE1CBB54AB0007463C /* LibraryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryTableViewController.swift; sourceTree = "<group>"; };
+		802B50E01CBB55060007463C /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		80E4B1E21CBC3FDE00B8C58C /* InstructionViewController0.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstructionViewController0.swift; sourceTree = "<group>"; };
+		80E4B1E31CBC3FDE00B8C58C /* InstructionViewController0.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InstructionViewController0.xib; sourceTree = "<group>"; };
+		80E4B1E61CBC401E00B8C58C /* InstructionViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstructionViewController1.swift; sourceTree = "<group>"; };
+		80E4B1E71CBC401E00B8C58C /* InstructionViewController1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InstructionViewController1.xib; sourceTree = "<group>"; };
+		80E4B1EA1CBC408600B8C58C /* InstructionViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstructionViewController2.swift; sourceTree = "<group>"; };
+		80E4B1EB1CBC408600B8C58C /* InstructionViewController2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InstructionViewController2.xib; sourceTree = "<group>"; };
+		80E4B1EE1CBC409400B8C58C /* InstructionViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstructionViewController3.swift; sourceTree = "<group>"; };
+		80E4B1EF1CBC409400B8C58C /* InstructionViewController3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InstructionViewController3.xib; sourceTree = "<group>"; };
+		80EFE4EE1CBF5EBC00C619D0 /* AnalysisInputViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalysisInputViewController.swift; sourceTree = "<group>"; };
+		80EFE5361CC3031C00C619D0 /* AnalysisResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalysisResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +115,7 @@
 		802B4FF41CBB1FFC0007463C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				802B4FF31CBB1FFC0007463C /* MetacordPrototype_1.0.app */,
+				802B4FF31CBB1FFC0007463C /* Metacord.app */,
 				802B50091CBB1FFD0007463C /* MetacordPrototype_1.0Tests.xctest */,
 				802B50141CBB1FFD0007463C /* MetacordPrototype_1.0UITests.xctest */,
 			);
@@ -100,8 +126,21 @@
 			isa = PBXGroup;
 			children = (
 				802B4FF61CBB1FFC0007463C /* AppDelegate.swift */,
-				802B4FF81CBB1FFC0007463C /* FirstViewController.swift */,
-				802B4FFA1CBB1FFC0007463C /* SecondViewController.swift */,
+				802B4FF81CBB1FFC0007463C /* HomeViewController.swift */,
+				802B4FFA1CBB1FFC0007463C /* InstructionViewController.swift */,
+				80E4B1E21CBC3FDE00B8C58C /* InstructionViewController0.swift */,
+				80E4B1E31CBC3FDE00B8C58C /* InstructionViewController0.xib */,
+				80E4B1E61CBC401E00B8C58C /* InstructionViewController1.swift */,
+				80E4B1E71CBC401E00B8C58C /* InstructionViewController1.xib */,
+				80E4B1EA1CBC408600B8C58C /* InstructionViewController2.swift */,
+				80E4B1EB1CBC408600B8C58C /* InstructionViewController2.xib */,
+				80E4B1EE1CBC409400B8C58C /* InstructionViewController3.swift */,
+				80E4B1EF1CBC409400B8C58C /* InstructionViewController3.xib */,
+				802B50DC1CBB51180007463C /* AnalyzerViewController.swift */,
+				80EFE4EE1CBF5EBC00C619D0 /* AnalysisInputViewController.swift */,
+				80EFE5361CC3031C00C619D0 /* AnalysisResultViewController.swift */,
+				802B50DE1CBB54AB0007463C /* LibraryTableViewController.swift */,
+				802B50E01CBB55060007463C /* DetailViewController.swift */,
 				802B4FFC1CBB1FFC0007463C /* Main.storyboard */,
 				802B4FFF1CBB1FFC0007463C /* Assets.xcassets */,
 				802B50011CBB1FFC0007463C /* LaunchScreen.storyboard */,
@@ -145,7 +184,7 @@
 			);
 			name = MetacordPrototype_1.0;
 			productName = MetacordPrototype_1.0;
-			productReference = 802B4FF31CBB1FFC0007463C /* MetacordPrototype_1.0.app */;
+			productReference = 802B4FF31CBB1FFC0007463C /* Metacord.app */;
 			productType = "com.apple.product-type.application";
 		};
 		802B50081CBB1FFD0007463C /* MetacordPrototype_1.0Tests */ = {
@@ -235,6 +274,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80E4B1E91CBC401E00B8C58C /* InstructionViewController1.xib in Resources */,
+				80E4B1E51CBC3FDE00B8C58C /* InstructionViewController0.xib in Resources */,
+				80E4B1ED1CBC408600B8C58C /* InstructionViewController2.xib in Resources */,
+				80E4B1F11CBC409400B8C58C /* InstructionViewController3.xib in Resources */,
 				802B50031CBB1FFC0007463C /* LaunchScreen.storyboard in Resources */,
 				802B50001CBB1FFC0007463C /* Assets.xcassets in Resources */,
 				802B4FFE1CBB1FFC0007463C /* Main.storyboard in Resources */,
@@ -262,9 +305,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				802B4FFB1CBB1FFC0007463C /* SecondViewController.swift in Sources */,
+				802B50DD1CBB51180007463C /* AnalyzerViewController.swift in Sources */,
+				802B4FFB1CBB1FFC0007463C /* InstructionViewController.swift in Sources */,
+				80E4B1F01CBC409400B8C58C /* InstructionViewController3.swift in Sources */,
+				80E4B1E81CBC401E00B8C58C /* InstructionViewController1.swift in Sources */,
+				80E4B1E41CBC3FDE00B8C58C /* InstructionViewController0.swift in Sources */,
 				802B4FF71CBB1FFC0007463C /* AppDelegate.swift in Sources */,
-				802B4FF91CBB1FFC0007463C /* FirstViewController.swift in Sources */,
+				802B50E11CBB55060007463C /* DetailViewController.swift in Sources */,
+				80EFE5371CC3031C00C619D0 /* AnalysisResultViewController.swift in Sources */,
+				80EFE4EF1CBF5EBC00C619D0 /* AnalysisInputViewController.swift in Sources */,
+				802B4FF91CBB1FFC0007463C /* HomeViewController.swift in Sources */,
+				802B50DF1CBB54AB0007463C /* LibraryTableViewController.swift in Sources */,
+				80E4B1EC1CBC408600B8C58C /* InstructionViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,7 +463,7 @@
 				INFOPLIST_FILE = MetacordPrototype_1.0/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.newcompany.MetacordPrototype-1-0";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Metacord;
 			};
 			name = Debug;
 		};
@@ -422,7 +474,7 @@
 				INFOPLIST_FILE = MetacordPrototype_1.0/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.newcompany.MetacordPrototype-1-0";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Metacord;
 			};
 			name = Release;
 		};
@@ -491,6 +543,7 @@
 				802B501F1CBB1FFD0007463C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		802B50201CBB1FFD0007463C /* Build configuration list for PBXNativeTarget "MetacordPrototype_1.0Tests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +552,7 @@
 				802B50221CBB1FFD0007463C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		802B50231CBB1FFD0007463C /* Build configuration list for PBXNativeTarget "MetacordPrototype_1.0UITests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +561,7 @@
 				802B50251CBB1FFD0007463C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
