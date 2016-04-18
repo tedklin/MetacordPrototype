@@ -28,6 +28,7 @@
 		80E4B1F11CBC409400B8C58C /* InstructionViewController3.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80E4B1EF1CBC409400B8C58C /* InstructionViewController3.xib */; };
 		80EFE4EF1CBF5EBC00C619D0 /* AnalysisInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EFE4EE1CBF5EBC00C619D0 /* AnalysisInputViewController.swift */; };
 		80EFE5371CC3031C00C619D0 /* AnalysisResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EFE5361CC3031C00C619D0 /* AnalysisResultViewController.swift */; };
+		80EFE5391CC46F2300C619D0 /* metacordlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 80EFE5381CC46F2300C619D0 /* metacordlogo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		80E4B1EF1CBC409400B8C58C /* InstructionViewController3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InstructionViewController3.xib; sourceTree = "<group>"; };
 		80EFE4EE1CBF5EBC00C619D0 /* AnalysisInputViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalysisInputViewController.swift; sourceTree = "<group>"; };
 		80EFE5361CC3031C00C619D0 /* AnalysisResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalysisResultViewController.swift; sourceTree = "<group>"; };
+		80EFE5381CC46F2300C619D0 /* metacordlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = metacordlogo.png; path = ../../../Desktop/MetacordTesting/metacordlogo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 				802B50DE1CBB54AB0007463C /* LibraryTableViewController.swift */,
 				802B50E01CBB55060007463C /* DetailViewController.swift */,
 				802B4FFC1CBB1FFC0007463C /* Main.storyboard */,
+				80EFE5381CC46F2300C619D0 /* metacordlogo.png */,
 				802B4FFF1CBB1FFC0007463C /* Assets.xcassets */,
 				802B50011CBB1FFC0007463C /* LaunchScreen.storyboard */,
 				802B50041CBB1FFC0007463C /* Info.plist */,
@@ -277,6 +280,7 @@
 				80E4B1E91CBC401E00B8C58C /* InstructionViewController1.xib in Resources */,
 				80E4B1E51CBC3FDE00B8C58C /* InstructionViewController0.xib in Resources */,
 				80E4B1ED1CBC408600B8C58C /* InstructionViewController2.xib in Resources */,
+				80EFE5391CC46F2300C619D0 /* metacordlogo.png in Resources */,
 				80E4B1F11CBC409400B8C58C /* InstructionViewController3.xib in Resources */,
 				802B50031CBB1FFC0007463C /* LaunchScreen.storyboard in Resources */,
 				802B50001CBB1FFC0007463C /* Assets.xcassets in Resources */,
