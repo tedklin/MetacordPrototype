@@ -26,7 +26,9 @@ In essence, this algorithm runs through all of the key parameters that any norma
 
 Test Procedures:
 
-To test our prototype, we searched for real EKG’s from EKG libraries and websites. We ran the given data through our app to see if the app’s results were the same as the results from the doctor diagnosing the actual EKG, and logged it into a .txt file as reference. </mutableString>
+To test our prototype, we searched for real EKG’s from EKG libraries and websites. We ran the given data through our app to see if the app’s results were the same as the results from the doctor diagnosing the actual EKG, and logged it into a .txt file as reference. 
+
+Our tests for the final prototype gave an 100% success rate! </mutableString>
                     <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                 </textView>
