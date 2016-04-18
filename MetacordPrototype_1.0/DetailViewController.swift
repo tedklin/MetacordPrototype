@@ -10,10 +10,9 @@ import UIKit
 
 class DetailViewController: UIViewController {
     
-    @IBOutlet weak var detailDescriptionLabel: UILabel!
+    @IBOutlet weak var detailWebView: UIWebView!
     
-    
-    var detailItem: AnyObject? {
+    var detailItem: String? {
         didSet {
             // Update the view.
             self.configureView()
@@ -25,7 +24,16 @@ class DetailViewController: UIViewController {
     func configureView() {
         // Update the user interface for the detail item.
         if let detail = self.detailItem {
-            self.title = detail.description
+            self.title = detail
+
+            if (detailWebView != nil) {
+                let path = NSBundle.mainBundle().pathForResource(detail, ofType:"html",inDirectory:"www")
+                if (path != nil) {
+                    let url = NSURL(fileURLWithPath: path!)
+                    let urlRequest = NSURLRequest(URL:url)
+                    detailWebView.loadRequest(urlRequest)
+                }
+            }
         }
     }
     

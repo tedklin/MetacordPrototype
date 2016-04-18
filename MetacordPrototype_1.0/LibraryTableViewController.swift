@@ -11,7 +11,17 @@ import UIKit
 class LibraryTableViewController: UITableViewController {
     
     var detailViewController: DetailViewController? = nil
-    var itemList = ["Normal EKG", "Acute Myocardial Infarction", "First Degree Heart Block", "Lown Ganong Levine Syndrome", "Left Atrial Hypertrophy", "Left Ventricular Hypertrophy", "Romano-Ward Syndrome", "Sinus Bradycardia", "Sinus Tachycardia", "Wolf-Parkinson-White Syndrome", "Coming soon!"]
+    var itemList = ["Normal EKG",
+                    "Acute Myocardial Infarction",
+                    "First Degree Heart Block",
+                    "Lown Ganong Levine Syndrome",
+                    "Left Atrial Hypertrophy",
+                    "Left Ventricular Hypertrophy",
+                    "Romano-Ward Syndrome",
+                    "Sinus Bradycardia",
+                    "Sinus Tachycardia",
+                    "Wolf-Parkinson-White Syndrome",
+                    "Coming soon!"]
     
     
     override func viewDidLoad() {

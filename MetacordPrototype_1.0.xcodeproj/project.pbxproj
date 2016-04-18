@@ -29,6 +29,7 @@
 		80EFE4EF1CBF5EBC00C619D0 /* AnalysisInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EFE4EE1CBF5EBC00C619D0 /* AnalysisInputViewController.swift */; };
 		80EFE5371CC3031C00C619D0 /* AnalysisResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EFE5361CC3031C00C619D0 /* AnalysisResultViewController.swift */; };
 		80EFE5391CC46F2300C619D0 /* metacordlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 80EFE5381CC46F2300C619D0 /* metacordlogo.png */; };
+		80EFE53B1CC4D6B700C619D0 /* www in Resources */ = {isa = PBXBuildFile; fileRef = 80EFE53A1CC4D6B700C619D0 /* www */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,7 @@
 		80EFE4EE1CBF5EBC00C619D0 /* AnalysisInputViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalysisInputViewController.swift; sourceTree = "<group>"; };
 		80EFE5361CC3031C00C619D0 /* AnalysisResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalysisResultViewController.swift; sourceTree = "<group>"; };
 		80EFE5381CC46F2300C619D0 /* metacordlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = metacordlogo.png; path = ../../../Desktop/MetacordTesting/metacordlogo.png; sourceTree = "<group>"; };
+		80EFE53A1CC4D6B700C619D0 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 				802B4FFC1CBB1FFC0007463C /* Main.storyboard */,
 				80EFE5381CC46F2300C619D0 /* metacordlogo.png */,
 				802B4FFF1CBB1FFC0007463C /* Assets.xcassets */,
+				80EFE53A1CC4D6B700C619D0 /* www */,
 				802B50011CBB1FFC0007463C /* LaunchScreen.storyboard */,
 				802B50041CBB1FFC0007463C /* Info.plist */,
 			);
@@ -277,6 +280,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80EFE53B1CC4D6B700C619D0 /* www in Resources */,
 				80E4B1E91CBC401E00B8C58C /* InstructionViewController1.xib in Resources */,
 				80E4B1E51CBC3FDE00B8C58C /* InstructionViewController0.xib in Resources */,
 				80E4B1ED1CBC408600B8C58C /* InstructionViewController2.xib in Resources */,
