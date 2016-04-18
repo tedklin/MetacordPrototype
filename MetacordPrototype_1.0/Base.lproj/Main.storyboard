@@ -104,13 +104,28 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Analyzer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6qY-7B-zUj">
-                                <rect key="frame" x="241" y="282" width="119" height="37"/>
+                                <rect key="frame" x="241" y="281" width="119" height="37"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="31"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cGa-c5-Q2B">
+                                <rect key="frame" x="135" y="467" width="331" height="49"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="331" id="cE0-lq-fzU"/>
+                                    <constraint firstAttribute="height" constant="49" id="q8u-6U-DWo"/>
+                                </constraints>
+                                <string key="text">**Disclaimer: This app is not a replacement for doctors and should not be used as a final diagnosis! Consult your doctor if your analysis comes out as abnormal.**</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1cK-gs-Cak">
-                                <rect key="frame" x="225" y="355" width="151" height="30"/>
+                                <rect key="frame" x="178" y="333" width="244" height="55"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="244" id="2Zu-KZ-Cch"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <state key="normal" title="Press to start analysis"/>
                                 <connections>
                                     <segue destination="QI2-JF-kEG" kind="show" identifier="analysisSegue" id="Zlz-bA-Iew"/>
@@ -119,10 +134,13 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="1cK-gs-Cak" firstAttribute="centerX" secondItem="6qY-7B-zUj" secondAttribute="centerX" id="19d-br-WYR"/>
+                            <constraint firstItem="cGa-c5-Q2B" firstAttribute="top" secondItem="1cK-gs-Cak" secondAttribute="bottom" constant="79" id="F8i-Fk-DBP"/>
                             <constraint firstItem="6qY-7B-zUj" firstAttribute="centerY" secondItem="fZu-Pi-HQO" secondAttribute="centerY" id="FsR-DM-XSf"/>
-                            <constraint firstItem="1cK-gs-Cak" firstAttribute="top" secondItem="6qY-7B-zUj" secondAttribute="bottom" constant="36" id="h9T-7s-8Sy"/>
+                            <constraint firstItem="cGa-c5-Q2B" firstAttribute="centerX" secondItem="1cK-gs-Cak" secondAttribute="centerX" id="Tvz-ll-qkh"/>
+                            <constraint firstItem="IjS-dg-dED" firstAttribute="top" secondItem="cGa-c5-Q2B" secondAttribute="bottom" constant="35" id="hkn-5A-YvU"/>
+                            <constraint firstItem="1cK-gs-Cak" firstAttribute="top" secondItem="6qY-7B-zUj" secondAttribute="bottom" constant="15" id="kAW-nb-STp"/>
                             <constraint firstItem="6qY-7B-zUj" firstAttribute="centerX" secondItem="fZu-Pi-HQO" secondAttribute="centerX" id="tE9-ai-fKx"/>
-                            <constraint firstItem="1cK-gs-Cak" firstAttribute="centerX" secondItem="fZu-Pi-HQO" secondAttribute="centerX" id="yeu-QB-nTJ"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="ICS-lV-rik"/>

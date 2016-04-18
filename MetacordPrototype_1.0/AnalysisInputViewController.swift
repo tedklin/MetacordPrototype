@@ -148,13 +148,13 @@ class AnalysisInputViewController: UIViewController {
         
         result = ""
         
-        if (PFollowedByQRS == true && PWaveRate >= 60 && PWaveRate <= 100 && QRSAxis >= -30 && QRSAxis <= 90 && PWaveHeight <= 2.5 && PWaveWidth <= 0.11 && PRInterval <= 0.20 && PRInterval >= 0.12 && pathologicalQWaves != true && leftVentHype != true && rightVentHype != true && QTc <= 0.44 && QTc >= 0.350 && STElevation != true && STDepression != true && normalT == true && normalU == true && PWaveShape != "M" && PWaveDuration > 0.11 && QRSDuration > 0.07 && QRSDuration <= 0.10){
+        if (PFollowedByQRS == true && PWaveRate >= 60 && PWaveRate <= 100 && QRSAxis >= -30 && QRSAxis <= 90 && PWaveHeight <= 2.5 && PWaveWidth <= 0.11 && PRInterval <= 0.20 && PRInterval >= 0.12 && pathologicalQWaves != true && leftVentHype != true && rightVentHype != true && QTc <= 0.44 && QTc >= 0.350 && STElevation != true && STDepression != true && normalT == true && normalU == true && PWaveShape != "M" && PWaveDuration > 0.11 && QRSDuration > 0.07 && QRSDuration <= 0.11){
             
             result = "Normal healthy heart!"
             
         } else {
             if (STElevation == true && STDepression == true){
-                result.appendContentsOf("Acute Myocardial Infraction" + "\r\n")
+                result.appendContentsOf("Acute Myocardial Infarction" + "\r\n")
             }
             if (leftVentHype == true){
                 result.appendContentsOf("Left Ventricular Hypertrophy" + "\r\n")
@@ -171,13 +171,13 @@ class AnalysisInputViewController: UIViewController {
             if (PWaveRate > 100){
                 result.appendContentsOf("Sinus Tachycardia")
             }
-            if (PWaveDuration >= 0.11 && QRSDuration > 100 && (STElevation == true || STDepression == true) && normalT == false){
+            if (PRInterval < 0.12 && QRSDuration > 0.11 || (STElevation == true || STDepression == true) || normalT == false){
                 result.appendContentsOf("Wolf-Parkinson-White Syndrome")
             }
             if (QTc > 0.44){
                 result.appendContentsOf("Romano-Ward Syndrome")
             }
-            if (PRInterval < 0.12 && DeltaWaves == false){
+            if (PRInterval < 0.12 && QRSDuration <= 0.11){
                 result.appendContentsOf("Lown Ganong Levine Syndrome")
             }
             if (result == "") {
