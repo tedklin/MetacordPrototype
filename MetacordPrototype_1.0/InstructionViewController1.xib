@@ -18,8 +18,17 @@
                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Oht-fy-fjg">
                     <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    <mutableString key="text">This is the second screen, first line.  Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.  This is the last line.</mutableString>
-                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <mutableString key="text">Generate Concepts:
+
+After two days of brainstorming solutions, we came up with two proposed solutions. 
+
+The first concept was an analyzer that takes the graph from an electronic stethoscope extension that attaches to any stethoscope. This electronic stethoscope would amplify and record the sound of the heart while the doctor uses the stethoscope. Our app can then analyze the sound waves to detect heart problems such as heart murmurs.
+
+The second idea was also an analyzer, but this takes EKG data from an external source, similar to the EKG sensor in an iPhone case design AliveCor used for their product. Our app can run the data through an algorithm and show what potential problems the user or patient might have. 
+
+Through our design matrix, we determined that the EKG analysis app would be more time-efficient, and it can detect more characteristics and diseases than the sound wave analysis app. 
+</mutableString>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                 </textView>
             </subviews>
