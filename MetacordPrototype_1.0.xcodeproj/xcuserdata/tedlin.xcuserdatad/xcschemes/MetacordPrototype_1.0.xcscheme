@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "802B4FF21CBB1FFC0007463C"
-               BuildableName = "MetacordPrototype_1.0.app"
+               BuildableName = "Metacord.app"
                BlueprintName = "MetacordPrototype_1.0"
                ReferencedContainer = "container:MetacordPrototype_1.0.xcodeproj">
             </BuildableReference>
@@ -53,7 +53,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "802B4FF21CBB1FFC0007463C"
-            BuildableName = "MetacordPrototype_1.0.app"
+            BuildableName = "Metacord.app"
             BlueprintName = "MetacordPrototype_1.0"
             ReferencedContainer = "container:MetacordPrototype_1.0.xcodeproj">
          </BuildableReference>
@@ -76,7 +76,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "802B4FF21CBB1FFC0007463C"
-            BuildableName = "MetacordPrototype_1.0.app"
+            BuildableName = "Metacord.app"
             BlueprintName = "MetacordPrototype_1.0"
             ReferencedContainer = "container:MetacordPrototype_1.0.xcodeproj">
          </BuildableReference>
@@ -95,7 +95,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "802B4FF21CBB1FFC0007463C"
-            BuildableName = "MetacordPrototype_1.0.app"
+            BuildableName = "Metacord.app"
             BlueprintName = "MetacordPrototype_1.0"
             ReferencedContainer = "container:MetacordPrototype_1.0.xcodeproj">
          </BuildableReference>

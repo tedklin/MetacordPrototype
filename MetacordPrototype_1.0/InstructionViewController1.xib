@@ -18,7 +18,7 @@
                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Oht-fy-fjg">
                     <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    <mutableString key="text">Generate Concepts:
+                    <string key="text">Generate Concepts:
 
 After two days of brainstorming solutions, we came up with two proposed solutions. 
 
@@ -27,7 +27,7 @@ The first concept was an analyzer that takes the graph from an electronic stetho
 The second idea was also an analyzer, but this takes EKG data from an external source, similar to the EKG sensor in an iPhone case design AliveCor used for their product. Our app can run the data through an algorithm and show what potential problems the user or patient might have. 
 
 Through our design matrix, we determined that the EKG analysis app would be more time-efficient, and it can detect more characteristics and diseases than the sound wave analysis app. 
-</mutableString>
+</string>
                     <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                 </textView>

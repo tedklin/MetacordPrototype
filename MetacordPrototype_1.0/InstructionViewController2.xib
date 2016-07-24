@@ -18,13 +18,13 @@
                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="GjX-Ku-jvG">
                     <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    <mutableString key="text">Develop the solution:
+                    <string key="text">Develop the solution:
 
 We started by learning how to develop apps for iPhones, and we downloaded the XCode development tools to start programming. We also started Version Control, which allowed us to maintain the integrity and workability of each of our prototype versions. The app started off with simple software that allowed it to switch between views using a Tab Bar View Controller. This allowed the app to branch out into different subsystems, which would later become our basic Home, Introduction, Library, and Analyzer framework. 
 
 The Home is a simple View Controller that displays the image of our logo. The Introduction required many interacting animations to make a View Controller that the user can swipe back and forth for easy navigation. The Library was the most complex View Controller to make, as it needed controlled class threading so the app could have a dynamic Table View showing all of the characteristics and diseases we can detect. The Library also implements the use of global variables: constants that can be referenced anywhere in the code. When the user taps on a table cell, the app displays different subviews of information, unique to each disease/characteristic. 
 
-Lastly, the Analyzer used a simple Navigation View Controller that allowed for easy navigation between already set View Controllers. There is an AnalysisInputViewController because our app doesn’t have any established connections to EKG sensors yet. For testing purposes, the prototype app requires the tester/user to answer true or false questions and type in data that would usually be given from the EKG sensors. Once the connection to the EKG sensor has been established, we can still use all of the functions algorithms that calculate the result in our prototype.</mutableString>
+Lastly, the Analyzer used a simple Navigation View Controller that allowed for easy navigation between already set View Controllers. There is an AnalysisInputViewController because our app doesn’t have any established connections to EKG sensors yet. For testing purposes, the prototype app requires the tester/user to answer true or false questions and type in data that would usually be given from the EKG sensors. Once the connection to the EKG sensor has been established, we can still use all of the functions algorithms that calculate the result in our prototype.</string>
                     <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                 </textView>
